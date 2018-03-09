@@ -21,7 +21,7 @@ Which will launch tomcat running on port 8081.
 IDE (or use maven et al from the command line) and the test can be run to generate user records. 
 
 ###### File Store: 
-The file store is created underneath the home directory of the user who launches the process. File names are of the form `UUID.json`.
+The root of the file store is a directory named "userrecords" which is created in the home directory of the user who launches the process. File names are of the form `[UUID].json`.
 
 ###### Documentation:
 Almost all multi-line "/* ... */" comments are directed to the reviewer to explain parts of the code or my thoughts behind it. Regular java line "//" comments and javadocs should be viewed as regular ship-able comments. 
