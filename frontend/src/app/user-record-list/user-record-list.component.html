@@ -1,0 +1,16 @@
+<mat-card>
+    <button mat-fab color="primary" routerLink="/user-record-add">Add</button>
+    <button mat-fab color="primary" routerLink="/user-record-refresh">Refresh</button>
+    <mat-card-header><h3>User Record List</h3></mat-card-header>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item *ngFor="let record of userrecords">
+                <img mat-list-avatar src="{{record.giphyUrl}}">
+                <h4 mat-line>Name: {{record.username}}</h4>
+                <h4 mat-line>Favorite Quote: {{record.description}}</h4>
+                <h4 mat-line>DOB: {{record.DOB}}</h4>
+                <h4 mat-line>ID: {{record.uuid}}</h4>
+            </mat-list-item>
+        </mat-list>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,15 @@
+io/mouselabs/idemiademo/CorsConfig.class
+io/mouselabs/idemiademo/db/UserRecord.class
+io/mouselabs/idemiademo/UuidUtils.class
+io/mouselabs/idemiademo/db/FileRepository.class
+io/mouselabs/idemiademo/controller/UserRecordViewModel.class
+io/mouselabs/idemiademo/JacksonConfig$1.class
+io/mouselabs/idemiademo/controller/UserRecordViewModel$Builder.class
+io/mouselabs/idemiademo/db/UserRecord$1.class
+io/mouselabs/idemiademo/JacksonConfig.class
+io/mouselabs/idemiademo/controller/UserRecordViewModel$1.class
+io/mouselabs/idemiademo/db/UserRecordRepository.class
+io/mouselabs/idemiademo/controller/UserRecordController.class
+io/mouselabs/idemiademo/db/UserRecord$Builder.class
+io/mouselabs/idemiademo/CorsConfig$1.class
+io/mouselabs/idemiademo/Application.class

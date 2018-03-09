@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+ margin: 0;
+ font-family: Roboto, sans-serif;
+}
+
+.site-nav__logo {
+    padding-right: 200;
+}
+
+.title {
+    font-size: 24px;
+    margin: 1.5% 1.5% 24px 3%;
+}
